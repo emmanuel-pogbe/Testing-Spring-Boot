@@ -12,6 +12,8 @@ import static org.assertj.core.api.Fail.fail;
 @DisplayName("TestServiceImpl Unit test")
 public class TestServiceImplTest {
 
+    private TestServiceImpl testServiceImpl; // this is the class we want to test
+
     @Test
     public void test() {
         fail();
